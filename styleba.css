@@ -1,0 +1,278 @@
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&family=Poppins&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  /* background-color: red; */
+  font-family: "Poppins", sans-serif;
+}
+
+html {
+
+scroll-behavior: smooth;
+
+}
+
+.loogo-img {
+
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    z-index: 1;
+    margin-left: 10px;
+    
+    }
+    
+    p a {
+    
+    text-decoration: none;
+    position: absolute;
+    margin-left: 120px;
+    margin-top: 10px;
+    color: black;
+    
+    }
+    .navbar-brand  {
+    
+    margin-left: 120px;
+    margin-bottom: 20px;
+    padding-right:450px;
+    }
+
+    
+    nav .navbar-brand {
+    font-size: 30px;
+    
+    
+    }
+    
+    nav ul li {
+    
+    padding: 20px;
+    
+    }
+    
+    .navbar {
+    
+    height: 80px;
+    
+    
+    }
+     
+    .nav-item:hover .dropdown-menu {
+    
+    background: color #9fa9b2;;
+    display: block;
+    transition: ease 0.2s;
+    margin-top: 20px;
+    
+    
+    }
+    
+    .dropdown-menu  {
+    
+      margin-right: 150px;
+      
+    }
+    
+    .dropdown-menu a:hover  {
+    
+    background-color:#2C3A47;
+    color: white;
+    
+    }
+
+    .sendmessage a {
+
+ 
+        text-decoration: none;
+        color: #2C3A47;
+        margin-left: 150px;
+
+
+    }
+
+.btnsmg {
+
+margin-top: 20px;
+margin-left: 150px;
+
+
+    }
+
+    .btnmsg2 {
+      font-size: 12px;
+      padding: 10px;
+      border-radius: 50px;
+      background-color: #2C3A47;
+      color: white;
+      border: none;
+    }
+
+
+.baimg {
+
+    width: 100%;
+    height: 600px;
+
+    
+
+}
+
+ .bacourses{
+color:white;
+background-color: #2C3A47;
+padding:5px;
+border-radius: 10px;
+border: none;
+
+}
+
+
+.btn-h2 {
+font-size: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+
+}
+
+.totalfootersec {
+  background-color: black;
+  height: 300px;
+  color: #f5f5dc;
+  position: absolute;
+  width: 100%;
+
+}
+
+.address-sec {
+  padding-top: 70px;
+  margin-left: 30px;
+  font-weight: bold;
+  border-bottom: solid orangered 2px;
+  padding-bottom: 10px;
+  width: 100px;
+
+}
+
+.addpara {
+margin-left: 30px;
+width: 350px;
+margin-top: 20px;
+
+}
+
+
+.address-sec-1 {
+  margin-top: 70px;
+  position: absolute;
+  color: #f5f5dc;
+  position: relative;
+}
+
+.footer-cr {
+  margin-left: 550px;
+  position: relative;
+  border-bottom: solid orangered 2px;
+  padding-bottom: 10px;
+  width: 100px;
+  position: absolute;
+  z-index:2;
+  margin-top: 65px;
+}
+
+.cr-text {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 550px;
+  position: absolute;
+  z-index: 2;
+  margin-top: 120px;
+}
+
+.followus-f {
+  color: #f5f5dc;
+  position: relative;
+  margin-top: 25px;
+  float: right;
+  margin-right: 300px;
+  padding-top: 15px;
+  border-bottom: solid orangered 2px;
+  padding-bottom: 10px;
+  width: 100px;
+  position: relative;
+  z-index: 1;
+}
+
+.social-links {
+  margin-top: 100px;
+  margin-right: -150px;
+  float: right;
+  position: relative;
+  z-index: 1;
+  /* background-color: red; */
+}
+
+.fa-whatsapp {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 60%;
+  padding-left: 17px;
+  padding-right: 17px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  color: #f5f5dc;
+  margin-right: 10px;
+  transition: all 0.5s ease;
+  font-size: 10px;
+  position: relative;
+  z-index: 1;
+}
+
+.fa-instagram {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 60%;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  color: #f5f5dc;
+  margin-right: 10px;
+  transition: all 0.5s ease;
+  font-size: 10px;
+  position: relative;
+  z-index: 1;
+}
+
+.fa-snapchat {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 60%;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  color: #f5f5dc;
+  transition: all 0.5s ease;
+  font-size: 10px;
+  z-index: 1;
+  position: relative;
+}
+
+.fa-whatsapp:hover {
+  color: black;
+  background-color: #f5f5dc;
+  position: relative;
+}
+
+.fa-instagram:hover {
+  color: black;
+  background-color: #f5f5dc;
+}
+
+.fa-snapchat:hover {
+  color: black;
+  background-color: #f5f5dc;
+}
+
